@@ -1,8 +1,31 @@
-$color: red;
+@import 'config'; 
 
-body{
- background: $color;
+//CORE STYLING - RESET
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: #ffffff;
+}
 
+a {
+    text-decoration: none;
+    color: $dark-color;
+}
 
+ul {
+    list-style: none;
+}
+
+h2, h3, h4 {
+text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+}
